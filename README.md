@@ -24,8 +24,6 @@ The skill may preserve sensitive evidence in generated reports when the user sup
 npx skills add Sequester-AG/bug-bounty-triage --skill bug-bounty-triage
 ```
 
-The repository must be public, or the installer must have access to the private repository.
-
 ### Codex
 
 ```bash
@@ -37,8 +35,6 @@ git clone https://github.com/Sequester-AG/bug-bounty-triage.git ~/.codex/skills/
 ```bash
 git clone https://github.com/Sequester-AG/bug-bounty-triage.git ~/.agents/skills/bug-bounty-triage
 ```
-
-Private-repository access is required until the repository is made public.
 
 ## Supporting skills and CLIs
 
@@ -58,10 +54,6 @@ npm install -g agent-browser
 agent-browser install
 npm install -g @zaddy6/agentemail
 ```
-
-## skills.sh listing
-
-After this repository is public, install it once with telemetry enabled using the Skills CLI command above. skills.sh discovers public repository skills from installation telemetry and lists them automatically; no separate submission is required.
 
 ## Usage
 
