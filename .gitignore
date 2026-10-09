@@ -1,0 +1,11 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Bug bounty evidence commonly contains secrets or personal data.
+evidence/
+reports/
+*.har
+*.pcap
+*.pcapng
