@@ -1,6 +1,6 @@
-# bb-triage
+# bug-bounty-triage
 
-`bb-triage` is an agent skill for rigorous bug bounty report triage, independent validation, impact escalation, and submission-ready reporting.
+`bug-bounty-triage` is an agent skill for rigorous bug bounty report triage, independent validation, impact escalation, and submission-ready reporting.
 
 It is designed to help an agent:
 
@@ -21,13 +21,13 @@ The skill may preserve sensitive evidence in generated reports when the user sup
 ### Codex
 
 ```bash
-git clone https://github.com/Sequester-AG/bb-triage.git ~/.codex/skills/bb-triage
+git clone https://github.com/Sequester-AG/bug-bounty-triage.git ~/.codex/skills/bug-bounty-triage
 ```
 
 ### Agent skills directory
 
 ```bash
-git clone https://github.com/Sequester-AG/bb-triage.git ~/.agents/skills/bb-triage
+git clone https://github.com/Sequester-AG/bug-bounty-triage.git ~/.agents/skills/bug-bounty-triage
 ```
 
 Private-repository access is required until the repository is made public.
@@ -37,7 +37,7 @@ Private-repository access is required until the repository is made public.
 Invoke the skill with a report, vulnerability description, or target and finding:
 
 ```text
-Use $bb-triage to validate this report and determine whether it is ready to submit: <report>
+Use $bug-bounty-triage to validate this report and determine whether it is ready to submit: <report>
 ```
 
 For live validation, provide the relevant authorization and scope. The complete workflow can use browser automation, direct HTTP requests, and disposable email accounts when those capabilities are available in the host environment. If live testing is unavailable, the skill should state what remains unverified.

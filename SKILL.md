@@ -1,5 +1,5 @@
 ---
-name: bb-triage
+name: bug-bounty-triage
 description: "Bug bounty report triage, validation, and severity escalation. Use when the user provides a bug bounty report to validate, wants to check if a finding is submittable, needs to escalate severity for maximum payout, or says 'triage this', 'validate this report', 'escalate this', 'is this submittable', 'check this bounty report', 'max bounty', or 'will this get accepted'."
 argument-hint: "<bug bounty report, vulnerability description, or target URL + finding>"
 allowed-tools: [Read, Glob, Grep, Bash, Write, Edit, Agent, WebFetch, WebSearch]
